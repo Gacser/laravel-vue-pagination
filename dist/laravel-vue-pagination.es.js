@@ -257,7 +257,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
               href: "#"
             }, toHandlers(slotProps.pageButtonEvents(page))), [
               createTextVNode(toDisplayString(page) + " ", 1),
-              page == slotProps.computed.currentPage ? (openBlock(), createElementBlock("span", _hoisted_4, "(current)")) : createCommentVNode("", true)
+              page == slotProps.computed.currentPage ? (openBlock(), createElementBlock("span", _hoisted_4, "")) : createCommentVNode("", true)
             ], 16)
           ], 2);
         }), 128)),
